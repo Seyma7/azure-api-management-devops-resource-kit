@@ -18,8 +18,8 @@ apis:
       type: http
       description: myFirstAPI
       serviceUrl: http://myApiBackendUrl.com
-      openApiSpec: C:\Users\myUsername\Projects\azure-api-management-devops-example\src\APIM_ARMTemplate\apimtemplate\Creator\ExampleFile\OpenApiSpecs\swaggerPetstore.json
-      policy: C:\Users\myUsername\Projects\azure-api-management-devops-example\src\APIM_ARMTemplate\apimtemplate\Creator\ExampleFiles\XMLPolicies\apiPolicyHeaders.xml
+      openApiSpec: C:\Users\Seyma\Desktop\azure-api-management-devops-resource-kit\src\ArmTemplates\Creator\ExampleFiles\OpenAPISpecs\swaggerPetstore.json
+      policy: C:\Users\Seyma\Desktop\azure-api-management-devops-resource-kit\src\ArmTemplates\Creator\ExampleFiles\XMLPolicies\apiPolicyHeaders.xml
       suffix: conf
       subscriptionRequired: true
       isCurrent: true
@@ -30,9 +30,9 @@ apis:
       apiRevisionDescription: My first revision
       operations:
         addPet:
-          policy: C:\Users\myUsername\Projects\azure-api-management-devops-example\src\APIM_ARMTemplate\apimtemplate\Creator\ExampleFile\XMLPolicies\operationRateLimit.xml
+          policy: C:\Users\Seyma\Desktop\azure-api-management-devops-resource-kit\src\ArmTemplates\Creator\ExampleFiles\XMLPolicies\operationRateLimit.xml
         deletePet:
-          policy: C:\Users\myUsername\Projects\azure-api-management-devops-example\src\APIM_ARMTemplate\apimtemplate\Creator\ExampleFile\XMLPolicies\operationRateLimit.xml
+          policy: C:\Users\Seyma\Desktop\azure-api-management-devops-resource-kit\src\ArmTemplates\Creator\ExampleFiles\XMLPolicies\operationRateLimit.xml
       products: starter, platinum
       authenticationSettings:
         oAuth2:
@@ -72,7 +72,7 @@ products:
       approvalRequired: true
       subscriptionsLimit: 1
       state: notPublished
-      policy: C:\Users\myUsername\Projects\azure-api-management-devops-example\src\APIM_ARMTemplate\apimtemplate\Creator\ExampleFile\XMLPolicies\productSetBodyBasic.xml
+      policy: C:\Users\Seyma\Desktop\azure-api-management-devops-resource-kit\src\ArmTemplates\Creator\ExampleFiles\XMLPolicies\productSetBodyBasic.xml
 namedValues:
     - displayName: Test
       value: Item 1
@@ -128,6 +128,6 @@ backends:
       tls:
         validateCertificateChain: false
         validateCertificateName: false
-outputLocation: C:\Users\myUsername\GeneratedTemplates
+outputLocation: C:\Users\Seyma\Desktop\azure-api-management-devops-resource-kit\GeneratedTemplates
 linked: false
 linkedTemplatesBaseUrl : https://mystorageaccount.blob.core.windows.net/mycontainer
